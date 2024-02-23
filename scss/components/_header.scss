@@ -86,12 +86,3 @@
     display: inline-block;
   }
 }
-
-.icon {
-  fill: $black;
-  transition: var(--transition);
-}
-
-.icon:hover {
-  fill: $primary;
-}

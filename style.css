@@ -120,8 +120,11 @@ ul {
   --Text-400-60: normal 400 60px / 103% var(--ff);
   --Text-400-42: normal 400 42px / 114% var(--ff);
   --Text-400-41: normal 400 41px / 141% var(--ff);
+  --Text-400-38: normal 400 38px / 126% var(--ff);
+  --Text-400-37: normal 400 41px / 130% var(--ff);
   --Text-400-30: normal 400 30px / 141% var(--ff);
   --Text-400-20: normal 400 20px / 140% var(--ff);
+  --Text-400-16: normal 400 16px / 150% var(--ff);
   --Text-400-14: normal 400 14px / 140% var(--ff); }
 
 html {
@@ -163,6 +166,13 @@ body {
   @media (max-width: 576px) {
     .h2-title {
       font: var(--Text-400-14); } }
+
+.icon {
+  fill: #000;
+  transition: var(--transition); }
+
+.icon:hover {
+  fill: #8842f0; }
 
 *::-webkit-scrollbar {
   width: 10rem;
@@ -242,13 +252,6 @@ body {
     .icon-menu,
     .icon-close {
       display: inline-block; } }
-
-.icon {
-  fill: #000;
-  transition: var(--transition); }
-
-.icon:hover {
-  fill: #8842f0; }
 
 .magical {
   padding: 90px 50px;
@@ -441,5 +444,58 @@ body {
     @media (max-width: 576px) {
       .specialOffer__text {
         font: var(--Text-400-30); } }
+
+.LearnHow {
+  padding: 75px 30px 50px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+  @media (max-width: 576px) {
+    .LearnHow {
+      padding: 50px 20px 50px 20px; } }
+  .LearnHow__info {
+    max-width: 683px;
+    font: var(--Text-400-37);
+    text-align: center;
+    color: #000;
+    margin-bottom: 40px; }
+    @media (max-width: 576px) {
+      .LearnHow__info {
+        font: var(--Text-400-20); } }
+  .LearnHow__button {
+    font: var(--Text-400-38);
+    text-align: center;
+    color: #000;
+    transition: var(--transition);
+    margin-bottom: 40px; }
+    .LearnHow__button:hover {
+      color: #8842f0;
+      border-bottom: 2px solid #8842f0; }
+  .LearnHow__block {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 40px; }
+    @media (max-width: 768px) {
+      .LearnHow__block {
+        gap: 30px; } }
+    @media (max-width: 576px) {
+      .LearnHow__block {
+        flex-direction: column; } }
+  .LearnHow__ul {
+    display: flex;
+    gap: 40px; }
+    @media (max-width: 576px) {
+      .LearnHow__ul {
+        margin: 0 -10px;
+        gap: 20px; } }
+  .LearnHow__a {
+    font: var(--Text-400-16);
+    color: #000;
+    transition: var(--transition); }
+    .LearnHow__a:hover {
+      color: #8842f0; }
 
 /*# sourceMappingURL=style.css.map */

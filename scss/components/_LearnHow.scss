@@ -1,0 +1,63 @@
+.LearnHow {
+  padding: 75px 30px 50px 30px;
+  @include f-c-c;
+  flex-direction: column;
+  @include mobile {
+    padding: 50px 20px 50px 20px;
+  }
+
+  &__info {
+    max-width: 683px;
+    font: var(--Text-400-37);
+    text-align: center;
+    color: $black;
+    margin-bottom: 40px;
+
+    @include mobile {
+      font: var(--Text-400-20);
+    }
+  }
+  &__button {
+    font: var(--Text-400-38);
+    text-align: center;
+    color: $black;
+    transition: var(--transition);
+    &:hover {
+      color: $primary;
+      border-bottom: 2px solid $primary;
+    }
+    margin-bottom: 40px;
+  }
+
+  &__block {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 40px;
+
+    @include tablet-small {
+      gap: 30px;
+    }
+    @include mobile {
+      flex-direction: column;
+    }
+  }
+  &__ul {
+    display: flex;
+    gap: 40px;
+
+    @include mobile {
+        margin: 0 -10px;
+      gap: 20px;
+    }
+  }
+  &__a {
+    font: var(--Text-400-16);
+    color: $black;
+    transition: var(--transition);
+    &:hover {
+      color: $primary;
+    }
+  }
+}

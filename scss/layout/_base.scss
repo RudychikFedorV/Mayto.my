@@ -41,3 +41,11 @@ body {
     font: var(--Text-400-14);
   }
 }
+.icon {
+	fill: $black;
+	transition: var(--transition);
+  }
+  
+  .icon:hover {
+	fill: $primary;
+  }
