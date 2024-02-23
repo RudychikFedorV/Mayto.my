@@ -1,0 +1,59 @@
+.magical {
+  padding: 90px 50px;
+  @include f-c-c;
+  flex-direction: column;
+
+  @include mobile {
+    padding: 50px 20px;
+  }
+
+  &__title {
+    margin-bottom: 60px;
+    @include mobile {
+      margin-bottom: 30px;
+    }
+  }
+  &__info {
+    max-width: 753px;
+    margin-bottom: 45px;
+    @include mobile {
+      margin-bottom: 25px;
+    }
+  }
+  &__btn {
+    font: var(--Text-400-41);
+    text-align: center;
+    color: $color-btn;
+    box-shadow: $box-shadow;
+    background: $black;
+    transition: var(--transition);
+    &:hover {
+      color: $primary;
+      background: lighten($black, 5%);
+    }
+    margin-bottom: 40px;
+    @include mobile {
+        margin-bottom: 25px;
+        font: var(--Text-400-20);
+      }
+  }
+  .btn {
+    padding: 15px;
+    width: 100%;
+    display: inline-block;
+    border-radius: 15px;
+    max-width: 761px;
+    @include tablet {
+      max-width: 661px;
+    }
+  }
+  &__desc {
+    font: var(--Text-400-20);
+    text-align: center;
+    color: $black;
+
+    @include mobile {
+        font: var(--Text-400-14);
+      }
+  }
+}

@@ -1,13 +1,43 @@
 html {
-	font-size: var(--html-fs);
+  font-size: var(--html-fs);
 }
 
 body {
-	font-size: 16px;
-	font-family: var(--ff);
+  font-size: 16px;
+  font-family: var(--ff);
 }
 .wrapper {
-	max-width: 1440px;
-	margin-inline: auto;
-	background: #d6fc52;
+  max-width: 1440px;
+  margin-inline: auto;
+  background: #d6fc52;
+}
+.h1-title {
+  color: $black;
+  text-align: center;
+  font: var(--Text-400-107);
+
+  @include tablet {
+    font: var(--Text-400-80);
+  }
+  @include tablet-small {
+    font: var(--Text-400-60);
+  }
+  @include mobile {
+    font: var(--Text-400-30);
+  }
+}
+.h2-title {
+  color: $black;
+  text-align: center;
+  font: var(--Text-400-42);
+
+  @include tablet {
+    font: var(--Text-400-30);
+  }
+  @include tablet-small {
+    font: var(--Text-400-20);
+  }
+  @include mobile {
+    font: var(--Text-400-14);
+  }
 }

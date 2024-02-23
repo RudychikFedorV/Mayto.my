@@ -1,27 +1,22 @@
-// breakpoints
-$desktop-small: 1200px;
-$tablet: 992px;
-$tablet-small: 768px;
-$mobile: 576px;
-
 :root {
   --html-fs: 1px;
   --ff: "Work Sans", sans-serif;
   --transition: 0.2s all ease-in-out;
 
   --Text-600-16: normal 600 16px / 150% var(--ff);
+  --Text-400-107: normal 400 107px / 103% var(--ff);
+  --Text-400-80: normal 400 80px / 103% var(--ff);
+  --Text-400-60: normal 400 60px / 103% var(--ff);
+  --Text-400-42: normal 400 42px / 114% var(--ff);
+  --Text-400-41: normal 400 41px / 141% var(--ff);
+  --Text-400-30: normal 400 30px / 141% var(--ff);
+  --Text-400-20: normal 400 20px / 140% var(--ff);
+  --Text-400-14: normal 400 14px / 140% var(--ff);
 }
 $text-white: #fff;
 $primary: #8842f0;
 $border: #eee;
 $black: #000;
+$color-btn: #d6fc52;
 $background-1: rgba(0, 0, 0, 0.3);
-
-html._theme:root {
-  background-color: var(--c-Text-2);
-  // color: var(--c-Paragraph);
-}
-
-// *._theme:root {
-//   background-color: var(--c-Text-2);
-// }
+$box-shadow: 0 208px 58px 0 rgba(0, 0, 0, 0.01);

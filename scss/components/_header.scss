@@ -1,7 +1,5 @@
 .header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  @include f-s-c;
   padding: 22px 30px;
 
   &__backdrop {
