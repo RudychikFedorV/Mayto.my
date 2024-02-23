@@ -301,4 +301,25 @@ body {
       .magical__desc {
         font: var(--Text-400-14); } }
 
+.superEasy {
+  padding: 90px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+  @media (max-width: 576px) {
+    .superEasy {
+      padding: 50px 20px; } }
+  .superEasy__title {
+    margin-bottom: 60px; }
+    @media (max-width: 576px) {
+      .superEasy__title {
+        margin-bottom: 30px; } }
+  .superEasy__info {
+    max-width: 753px;
+    margin-bottom: 45px; }
+    @media (max-width: 576px) {
+      .superEasy__info {
+        margin-bottom: 15px; } }
+
 /*# sourceMappingURL=style.css.map */
