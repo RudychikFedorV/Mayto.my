@@ -1,0 +1,27 @@
+// breakpoints
+$desktop-small: 1200px;
+$tablet: 992px;
+$tablet-small: 768px;
+$mobile: 576px;
+
+:root {
+  --html-fs: 1px;
+  --ff: "Work Sans", sans-serif;
+  --transition: 0.2s all ease-in-out;
+
+  --Text-600-16: normal 600 16px / 150% var(--ff);
+}
+$text-white: #fff;
+$primary: #8842f0;
+$border: #eee;
+$black: #000;
+$background-1: rgba(0, 0, 0, 0.3);
+
+html._theme:root {
+  background-color: var(--c-Text-2);
+  // color: var(--c-Paragraph);
+}
+
+// *._theme:root {
+//   background-color: var(--c-Text-2);
+// }
