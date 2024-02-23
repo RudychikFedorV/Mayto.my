@@ -322,4 +322,25 @@ body {
       .superEasy__info {
         margin-bottom: 15px; } }
 
+.superFast {
+  padding: 90px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+  @media (max-width: 576px) {
+    .superFast {
+      padding: 50px 20px; } }
+  .superFast__title {
+    margin-bottom: 60px; }
+    @media (max-width: 576px) {
+      .superFast__title {
+        margin-bottom: 30px; } }
+  .superFast__info {
+    max-width: 753px;
+    margin-bottom: 45px; }
+    @media (max-width: 576px) {
+      .superFast__info {
+        margin-bottom: 15px; } }
+
 /*# sourceMappingURL=style.css.map */
