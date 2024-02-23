@@ -116,6 +116,7 @@ ul {
   --Text-600-16: normal 600 16px / 150% var(--ff);
   --Text-400-107: normal 400 107px / 103% var(--ff);
   --Text-400-80: normal 400 80px / 103% var(--ff);
+  --Text-400-62: normal 400 62px / 260% var(--ff);
   --Text-400-60: normal 400 60px / 103% var(--ff);
   --Text-400-42: normal 400 42px / 114% var(--ff);
   --Text-400-41: normal 400 41px / 141% var(--ff);
@@ -379,8 +380,11 @@ body {
       .meet__title {
         margin-bottom: 30px; } }
   .meet__img {
+    transition: var(--transition);
     margin-bottom: 45px;
     cursor: pointer; }
+    .meet__img:hover {
+      transform: scale(1.3); }
     @media (max-width: 576px) {
       .meet__img {
         margin-bottom: 25px; } }
@@ -415,5 +419,27 @@ body {
     @media (max-width: 576px) {
       .meet__desc {
         font: var(--Text-400-14); } }
+
+.specialOffer {
+  background: #000; }
+  .specialOffer__text {
+    height: 196px;
+    padding: 12px 100px;
+    font: var(--Text-400-62);
+    text-transform: uppercase;
+    text-align: center;
+    color: #d6fc52;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; }
+    @media (max-width: 768px) {
+      .specialOffer__text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font: var(--Text-400-42); } }
+    @media (max-width: 576px) {
+      .specialOffer__text {
+        font: var(--Text-400-30); } }
 
 /*# sourceMappingURL=style.css.map */

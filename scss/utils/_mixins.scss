@@ -4,7 +4,6 @@ $tablet: 992px;
 $tablet-small: 768px;
 $mobile: 576px;
 
-
 // MEDIA QUERIES
 @mixin desktop-small {
   @media (max-width: $desktop-small) {
@@ -43,5 +42,10 @@ $mobile: 576px;
 @mixin f-c-c {
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+@mixin f-e-c {
+  display: flex;
+  justify-content: flex-end;
   align-items: center;
 }

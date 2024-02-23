@@ -1,0 +1,21 @@
+.specialOffer {
+  background: $black;
+
+  &__text {
+    height: 196px;
+    padding: 12px 100px;
+    font: var(--Text-400-62);
+    text-transform: uppercase;
+    text-align: center;
+    color: $color-btn;
+    @include f-e-c;
+
+    @include tablet-small {
+        @include f-c-c;
+        font: var(--Text-400-42);
+    }
+    @include mobile {
+        font: var(--Text-400-30);
+    }
+  }
+}
