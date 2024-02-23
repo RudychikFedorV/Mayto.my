@@ -1,0 +1,21 @@
+.footer {
+  @include f-s-c;
+  padding: 20px 30px;
+  border-top: 1px solid $primary;
+
+  @include mobile {
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+    padding: 20px;
+  }
+
+  &__desc {
+    font: var(--Text-400-18);
+    color: $black;
+  }
+  &__img {
+    display: flex;
+    gap: 10px;
+  }
+}

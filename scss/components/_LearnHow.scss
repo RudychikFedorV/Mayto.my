@@ -48,7 +48,6 @@
     gap: 40px;
 
     @include mobile {
-        margin: 0 -10px;
       gap: 20px;
     }
   }
@@ -58,6 +57,9 @@
     transition: var(--transition);
     &:hover {
       color: $primary;
+    }
+    @include mobile {
+      font: var(--Text-400-14);
     }
   }
 }
